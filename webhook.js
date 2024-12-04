@@ -25,7 +25,7 @@ public class StyledDiscordWebhook {
             connection.setDoOutput(true);
 
             String jsonPayload = String.format(
-                "{\"username\": \"%s\", \"avatar_url\": \"%s\", \"embeds\": [{\"title\": \"%s\", \"description\": \"%s\", \"color\": 16711680}]}",
+                "{\"username\": \"%s\", \"avatar_url\": \"%s\", \"embeds\": [{\"title\": \"%s\", \"description\": \"%s\", \"color\": 16711680}]}", // Color? what.
                 username, avatarUrl, title, message
             );
 
