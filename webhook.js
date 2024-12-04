@@ -3,8 +3,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class StyledDiscordWebhook {
-    // Замените на ваш вебхук URL
-    private static final String WEBHOOK_URL = "https://discord.com/. .  "; 
+    
+    private static final String WEBHOOK_URL = "https://discord.com/ . . "; // Your webhook URL
 
     public static void main(String[] args) {
         String serverId = "123456789"; // Server ID
