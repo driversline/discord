@@ -11,7 +11,7 @@ public class StyledDiscordWebhook {
         String title = "About"; // First text
         String message = "Hi!"; // Second text
         String username = "Boo! Got scared? Don't be afraid"; // Username
-        String avatarUrl = "https:/ . . .com"; // Замените на URL картинки
+        String avatarUrl = "https:/ . . .com"; // Image URL
 
         sendMessage(message, username, avatarUrl, title);
     }
