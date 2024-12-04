@@ -7,11 +7,11 @@ public class StyledDiscordWebhook {
     private static final String WEBHOOK_URL = "https://discord.com/. .  "; 
 
     public static void main(String[] args) {
-        String serverId = "number"; // Замените на ID дискорд сервера
-        String message = "text";
-        String username = "text";
-        String avatarUrl = "link"; // Замените на URL картинки
-        String title = "text"; // Заголовок
+        String serverId = "123456789"; // Server ID
+        String title = "About"; // First text
+        String message = "Hi!"; // Second text
+        String username = "Boo! Got scared? Don't be afraid"; // Username
+        String avatarUrl = "https:/ . . .com"; // Замените на URL картинки
 
         sendMessage(message, username, avatarUrl, title);
     }
