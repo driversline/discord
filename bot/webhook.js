@@ -4,14 +4,14 @@ import java.net.URL;
 
 public class StyledDiscordWebhook {
     
-    private static final String WEBHOOK_URL = "https://discord.com/ . . "; // Your webhook URL
+    private static final String WEBHOOK_URL = "https://discord.com/ . . "; 
 
     public static void main(String[] args) {
-        String serverId = "123456789"; // Server ID
-        String title = "About"; // First text
-        String message = "Hi!"; // Second text
-        String username = "Boo! Got scared? Don't be afraid"; // Username
-        String avatarUrl = "https:/ . . .com"; // Image URL
+        String serverId = "";
+        String title = "";
+        String message = "";
+        String username = "";
+        String avatarUrl = "";
 
         sendMessage(message, username, avatarUrl, title);
     }
@@ -25,7 +25,7 @@ public class StyledDiscordWebhook {
             connection.setDoOutput(true);
 
             String jsonPayload = String.format(
-                "{\"username\": \"%s\", \"avatar_url\": \"%s\", \"embeds\": [{\"title\": \"%s\", \"description\": \"%s\", \"color\": 16711680}]}", // Color? what.
+                "{\"username\": \"%s\", \"avatar_url\": \"%s\", \"embeds\": [{\"title\": \"%s\", \"description\": \"%s\", \"color\": 16711680}]}",
                 username, avatarUrl, title, message
             );
 
